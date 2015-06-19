@@ -1095,9 +1095,9 @@ jQuery( function() {
 				else if (newdeckhairetsu1 == 2) {
 				$('#costkeisan').text('2種[初期マナ35(+5)]');}
 				else {$('#costkeisan').text('3種[初期マナ30(ボーナス無し)]');};
-			var surl = ('http://npitz.net/decksimulator/'+urltest);
+			var surl = (location.protocol+'//'+location.host+location.pathname+urltest);
 			var uurl = encodeURIComponent(surl);
-			var turl = ("https://api-ssl.bitly.com/v3/shorten?access_token=99dcdddf0a3b0320a2caa3ea3dbd7839e41b20a6&longUrl="+uurl);
+			var turl = ("https://api-ssl.bitly.com/v3/shorten?access_token=615ef8a6fe7f20c8b37d8d438c6df7e464b9c29f&longUrl="+uurl);
 			$.getJSON(turl,function(json){
 			var trueurl = (json.data.url);
 			$('#param').val(trueurl);
