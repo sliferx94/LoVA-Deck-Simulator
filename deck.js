@@ -125,10 +125,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		}
 	} );
 	jQuery( '#deck1' ) . droppable( {
@@ -176,10 +176,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		},
 	} );
 	jQuery( '#deck2' ) . droppable( {
@@ -227,10 +227,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		},
 	} );
 	jQuery( '#deck3' ) . droppable( {
@@ -278,10 +278,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		},
 	} );
 	jQuery( '#deck4' ) . droppable( {
@@ -329,10 +329,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		},
 	} );
 	jQuery( '#deck5' ) . droppable( {
@@ -380,10 +380,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		},
 	} );
 	jQuery( '#deck6' ) . droppable( {
@@ -431,10 +431,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		},
 	} );
 	jQuery( '#deck7' ) . droppable( {
@@ -482,10 +482,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		},
 	} );
 	jQuery( '#deck8' ) . droppable( {
@@ -533,10 +533,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		},
 	} );
 	jQuery( '.flag1' ) . draggable( {
@@ -613,10 +613,10 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		},
 
 		
@@ -1091,13 +1091,13 @@ jQuery( function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
-			var surl = ('http://npitz.net/decksimulator/'+urltest);
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
+			var surl = (location.protocol+'//'+location.host+location.pathname+urltest);
 			var uurl = encodeURIComponent(surl);
-			var turl = ("https://api-ssl.bitly.com/v3/shorten?access_token=99dcdddf0a3b0320a2caa3ea3dbd7839e41b20a6&longUrl="+uurl);
+			var turl = ("https://api-ssl.bitly.com/v3/shorten?access_token=615ef8a6fe7f20c8b37d8d438c6df7e464b9c29f&longUrl="+uurl);
 			$.getJSON(turl,function(json){
 			var trueurl = (json.data.url);
 			$('#param').val(trueurl);
@@ -1140,10 +1140,10 @@ $(document).ready(function(){
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 });
 
 $(function() {
@@ -1200,10 +1200,10 @@ $(function() {
 			});
 		newdeckhairetsu1 = newdeckhairetsu.length;
 							if (newdeckhairetsu1 == 0 || newdeckhairetsu1 == 1) {
-				$('#costkeisan').text('1 Tribe[Initial Mana 40(+10)]');}
+				$('#costkeisan').text('1 Tribe [Initial Mana 40(+10)]');}
 				else if (newdeckhairetsu1 == 2) {
-				$('#costkeisan').text('2 Tribe[Initial Mana 35(+5)]');}
-				else {$('#costkeisan').text('3 Tribe[Initial Mana 30(No Bonus)]');};
+				$('#costkeisan').text('2 Tribe [Initial Mana 35(+5)]');}
+				else {$('#costkeisan').text('3 Tribe [Initial Mana 30(No Bonus)]');};
 		});
 });
 
