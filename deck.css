@@ -1,7 +1,10 @@
-﻿body {
+body {
 	background-color:#222222;
 	color:whitesmoke;
 	font-size:12px;
+	}
+a {
+	color: lightblue
 	}
 #title {
 	font-size:16px;
@@ -39,7 +42,11 @@
 	float:left;
 	}
 .midashi2-1 {
-	width: 60px;
+	width: 85px;
+	float:left;
+	}
+.midashi2-2 {
+	width: 50px;
 	float:left;
 	}
 .midashi3 {
@@ -132,7 +139,7 @@
 	font-size:16px;
 	font-weight:bold;
 	color:#b5e61d;
-	margin:5px 0px 0px 269px;
+	margin:5px 0px 0px 209px;
 	}
 #urlseisei {
 	margin:4px 0px 0px 0px;
