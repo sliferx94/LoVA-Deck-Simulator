@@ -696,7 +696,7 @@ jQuery( function() {
 		{}
 		else {
 		var lastdata = [];
-		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou');
+		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou','.ankokumadou');
 		for(i=0; i<lastdata.length; i++){
     if(lastdata[i] == tsukaimatypeshin){
         //spliceメソッドで要素を削除
@@ -785,7 +785,7 @@ jQuery( function() {
 		{}
 		else {
 		var lastdata = [];
-		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou');
+		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou','.ankokumadou');
 		for(i=0; i<lastdata.length; i++){
     if(lastdata[i] == tsukaimatypeshin){
         //spliceメソッドで要素を削除
@@ -874,7 +874,7 @@ jQuery( function() {
 		{}
 		else {
 		var lastdata = [];
-		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou');
+		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou','.ankokumadou');
 		for(i=0; i<lastdata.length; i++){
     if(lastdata[i] == tsukaimatypeshin){
         //spliceメソッドで要素を削除
@@ -963,7 +963,7 @@ jQuery( function() {
 		{}
 		else {
 		var lastdata = [];
-		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou');
+		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou','.ankokumadou');
 		for(i=0; i<lastdata.length; i++){
     if(lastdata[i] == tsukaimatypeshin){
         //spliceメソッドで要素を削除
@@ -1047,7 +1047,7 @@ jQuery( function() {
 		{}
 		else {
 		var lastdata = [];
-		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou');
+		lastdata.push('.eiyu','.seireiju','.sendousha','.daisenshi','.danzaisha','.tenken','.majin','.shugosha','.seima','.goeiken','.junshinsha','.kyosenshi','.choma','.unmeishin','.jiaishin','.furaijin','.genma','.seisenshi','.oogami','.fumogami','.daitenrei','.reiou','.kyouka','.yaminomono','.kyogensha','.kaii','.hanyou','.jashin','.kokumeishin','.yousei','.youen','.kaiou','.wap','.enyou','.kugutsu','.bantoushi','.konmei','.akuryou','.shiou','.ankokumadou');
 		for(i=0; i<lastdata.length; i++){
     if(lastdata[i] == tsukaimatypeshin){
         //spliceメソッドで要素を削除
