@@ -1254,48 +1254,53 @@ var cards = [50,50,50,50,50];
 for(i = 0; i < races.length; i++){
 	for(j = 0; j < cards[i]; j++){
 		id = '.'+races[i]+'-'+padZero(j);
-	
+		
 		$(document).on('click',id,function(){
-			if(this.id[0] == "j") race = "人獣";
-			if(this.id[0] == "s") race = "神族";
-			if(this.id[0] == "m") race = "魔種";
-			if(this.id[0] == "k") race = "海種";
-			if(this.id[0] == "f") race = "不死";
+			console.log("#"+$(this).attr("class").split(" ").pop());
+			
+			if(this.id[0] == "d"){card = $("#"+$(this).attr("class").split(" ").pop());}
+			else{card = $(this);}
+			
+			if(card.attr("id")[0] == "j"){race = "人獣";}
+			if(card.attr("id")[0] == "s"){race = "神族";}
+			if(card.attr("id")[0] == "m"){race = "魔種";}
+			if(card.attr("id")[0] == "k"){race = "海種";}
+			if(card.attr("id")[0] == "f"){race = "不死";}
 			
 			var tsukaimadata = [
-				$(this).attr('data-tsukaimamei'),
-				$(this).attr('data-type'),
-				$(this).attr('data-cost'),
-				$(this).attr('data-shatei'),
-				$(this).attr('data-level1hp'),
-				$(this).attr('data-level1ap'),
-				$(this).attr('data-level1atk'),
-				$(this).attr('data-level1pow'),
-				$(this).attr('data-level1def'),
-				$(this).attr('data-level1res'),
-				$(this).attr('data-level1as'),
-				$(this).attr('data-level1ms'),
-				$(this).attr('data-level20hp'),
-				$(this).attr('data-level20ap'),
-				$(this).attr('data-level20atk'),
-				$(this).attr('data-level20pow'),
-				$(this).attr('data-level20def'),
-				$(this).attr('data-level20res'),
-				$(this).attr('data-level20as'),
-				$(this).attr('data-level20ms'),
-				$(this).attr('data-activeskillshiteitype'),
-				$(this).attr('data-activeskillkoukatype'),
-				$(this).attr('data-activeskillshouhiap'),
-				$(this).attr('data-activeskillcooldown'),
-				$(this).attr('data-activeskill'),
-				$(this).attr('data-passiveskillshiteitype'),
-				$(this).attr('data-passiveskillkoukatype'),
-				$(this).attr('data-passiveskill'),
-				$(this).attr('data-jpn')
+				card.attr('data-tsukaimamei'),
+				card.attr('data-type'),
+				card.attr('data-cost'),
+				card.attr('data-shatei'),
+				card.attr('data-level1hp'),
+				card.attr('data-level1ap'),
+				card.attr('data-level1atk'),
+				card.attr('data-level1pow'),
+				card.attr('data-level1def'),
+				card.attr('data-level1res'),
+				card.attr('data-level1as'),
+				card.attr('data-level1ms'),
+				card.attr('data-level20hp'),
+				card.attr('data-level20ap'),
+				card.attr('data-level20atk'),
+				card.attr('data-level20pow'),
+				card.attr('data-level20def'),
+				card.attr('data-level20res'),
+				card.attr('data-level20as'),
+				card.attr('data-level20ms'),
+				card.attr('data-activeskillshiteitype'),
+				card.attr('data-activeskillkoukatype'),
+				card.attr('data-activeskillshouhiap'),
+				card.attr('data-activeskillcooldown'),
+				card.attr('data-activeskill'),
+				card.attr('data-passiveskillshiteitype'),
+				card.attr('data-passiveskillkoukatype'),
+				card.attr('data-passiveskill'),
+				card.attr('data-jpn')
 			];
 			
 			if(tsukaimadata[28] == undefined || tsukaimadata[28] == null){$('#tsukaimamei').html(tsukaimadata[0]);}
-			else{$('#tsukaimamei').html('<a href="http://wiki.4gamer.net/lova/使い魔/'+race+'/'+tsukaimadata[28]+'" target="_blank">'+tsukaimadata[0]+'</a>');}
+			else{$('#tsukaimamei').html(tsukaimadata[0]+'<a href="http://wiki.4gamer.net/lova/使い魔/'+race+'/'+tsukaimadata[28]+'" target="_blank"><button style="font-size:12px;height:18px;float:right;">Wiki</button></a>');}
 			
 			$('#type').html(tsukaimadata[1]);
 			$('#cost').html(tsukaimadata[2]);
