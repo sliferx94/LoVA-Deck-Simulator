@@ -1256,8 +1256,6 @@ for(i = 0; i < races.length; i++){
 		id = '.'+races[i]+'-'+padZero(j);
 		
 		$(document).on('click',id,function(){
-			console.log("#"+$(this).attr("class").split(" ").pop());
-			
 			if(this.id[0] == "d"){card = $("#"+$(this).attr("class").split(" ").pop());}
 			else{card = $(this);}
 			
