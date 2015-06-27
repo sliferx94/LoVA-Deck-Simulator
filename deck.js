@@ -1256,7 +1256,7 @@ for(i = 0; i < races.length; i++){
 		id = '.'+races[i]+'-'+padZero(j);
 		
 		$(document).on('click',id,function(){
-			if(this.id[0] == "d"){card = $("#"+$(this).attr("class").split(" ").pop());}
+			if(this.id[0] == "d"){classes = $(this).attr("class").split(" ");for(w = 0; w < classes.length; w++){if(classes[w][1] == "-"){card = $("#"+classes[w]);}}}
 			else{card = $(this);}
 			
 			if(card.attr("id")[0] == "j"){race = "人獣";}
@@ -1298,7 +1298,7 @@ for(i = 0; i < races.length; i++){
 			];
 			
 			if(tsukaimadata[28] == undefined || tsukaimadata[28] == null){$('#tsukaimamei').html(tsukaimadata[0]);}
-			else{$('#tsukaimamei').html(tsukaimadata[0]+'<a href="http://wiki.4gamer.net/lova/使い魔/'+race+'/'+tsukaimadata[28]+'" target="_blank"><button style="font-size:12px;height:18px;float:right;">Wiki</button></a>');}
+			else{$('#tsukaimamei').html(tsukaimadata[0]+'<a href="http://wiki.4gamer.net/lova/使い魔/'+race+'/'+tsukaimadata[28]+'" target="_blank"><button style="font-size:12px;margin-top:1px;padding:0;height:16px;width:40px;float:right;">Wiki</button></a>');}
 			
 			$('#type').html(tsukaimadata[1]);
 			$('#cost').html(tsukaimadata[2]);
